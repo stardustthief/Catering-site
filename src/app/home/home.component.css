@@ -1,0 +1,59 @@
+
+.landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    background-color: #EEEEEE;
+    background-position: 100%;
+}
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #3A98B9;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  } 
+.jumbotron {
+    background-color: #303030;
+    color: #fff;
+    padding: 50px 25px;
+    font-family: Montserrat, sans-serif;
+}
+.btn {
+    background-color: #EEEEEE;
+    color: #3A98B9;
+}
+.profile-picture {
+    width: 70%;
+    height: auto;
+}
+.card {
+    background-color: #E8D5C4;
+    box-shadow: 2 2 1000px rgba(0, 0, 0, 0.1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+.card-body {
+    padding: 20px;
+}
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+  }

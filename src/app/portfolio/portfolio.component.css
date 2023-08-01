@@ -1,0 +1,17 @@
+/* E8D5C4 */
+.portfolio {
+    background-color: #e8d5c4;
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+.thumbnail img {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    max-height: 245px;
+    margin-bottom: 10px;
+}
+

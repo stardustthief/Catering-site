@@ -1,0 +1,97 @@
+<section class="contact" id="contact">
+<h2>Contact Us</h2>
+    <div class="row">
+      <div class="list col-sm-7">
+        <p><i class="fas fa-band-aid" style="color:fff"></i>Budapest, Hungary</p>
+        <p>+36 33 432567</p>
+        <p>cutiecatering@mail.com</p>
+      </div>
+      <div class="container px-5 mx-auto flex flex-wrap">
+      <form
+        [formGroup]="form"
+        (ngSubmit)="send()"
+        class="bg-white flex flex-col w-full mt-8"
+      >
+
+        <div class="relative mb-4">
+          <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+          <input
+            formControlName="name"
+            type="text"
+            id="name"
+            name="name"
+            class="
+              w-full
+              bg-white
+              rounded
+              border border-gray-300
+              text-base
+              outline-none
+              text-gray-700
+              py-1
+              px-3
+              leading-8
+            "
+          />
+        </div>
+        <div class="relative mb-4">
+          <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+          <input
+            formControlName="email"
+            type="email"
+            id="email"
+            name="email"
+            class="
+              w-full
+              bg-white
+              rounded
+              border border-gray-300
+              text-base
+              outline-none
+              text-gray-700
+              py-1
+              px-3
+              leading-8
+            "
+          />
+        </div>
+        <div class="relative mb-4">
+          <label for="message" class="leading-7 text-sm text-gray-600"
+            >Message</label
+          >
+          <textarea
+            formControlName="message"
+            id="message"
+            name="message"
+            class="
+              w-full
+              bg-white
+              rounded
+              border border-gray-300
+              h-32
+              text-base
+              outline-none
+              text-gray-700
+              py-1
+              px-3
+              resize-none
+              leading-6
+              transition-colors
+              duration-200
+              ease-in-out
+            "
+          ></textarea>
+        </div>
+        <button
+          type="submit"
+          class="
+            btn align-right
+          "
+        >
+          Send
+        </button>
+      </form>
+    </div>
+  </div>
+  </section>
+  
